@@ -1,0 +1,1445 @@
+.container-fluid{
+    width: 100%;
+    --bs-gutter-x:0rem;
+}
+    .fullbody{
+        background-color: rgb(206, 195, 195);
+    }
+    .top {
+        width: 100%; 
+        height: 50px; 
+        background-color: yellow;
+    }
+    .headerbutton{
+        display: grid;
+        grid-template-columns: 2fr 8fr 2fr; 
+        padding: 5px; 
+    }
+    .flipcart{
+        font-size: 30px;
+        font-style: italic;
+       text-shadow: 2px 1px 1px rgb(128, 145, 221);
+    }
+    #searchbutton{
+        padding: 5px;
+    }
+    #searchvalue{
+        width: 356px;
+    border: 2px solid black;
+    height: 31px;
+    font-size: 11px;
+    margin: -3px 0 0;
+    box-shadow: 2px 2px black;   
+    }
+    #search{
+        height: 35px;
+    width: 66px;
+    font-size: 13px;
+    border: 2px solid;
+    padding: 0px;
+    background-color: chocolate;
+    color: white;
+    box-shadow: 2px 2px white;
+    }
+    #loginondiv{
+        margin: -13px 0 0 0;
+    }
+    .login-rs button{
+        width: auto;
+        font-size: 20px;
+        margin-top: 13px;
+        background: red;
+        box-shadow: 1px 1px 1px 1px black;
+        border-radius: 5px solid black;
+    }
+   
+    #all-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        height: 150px;
+        background-color: rgb(233, 226, 226);
+    }
+    .paraitem{
+        
+        background-color: black;
+        text-align: center;
+    }
+    .itemname{
+        color: white; 
+       background-color: black;
+       text-decoration: none;
+    }
+    #imgresponsive{
+       height: 100px;
+       width: 100px;
+    }
+    #firstrow{
+        margin-top: 5px;
+    }
+    #carouseheigthres{
+        margin-top: 1px;
+    }
+    .caroubanner{
+        border-radius: 6px;
+    }
+    #caitem{
+        border: 2px solid black;
+    }
+    #sarouselimgres{
+        height:400px; 
+        width:100%;
+    }
+    .smallimg{
+        background-color: white;
+    }
+    #smallres{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+    .smallimgcl{
+        height:80px; 
+        width:71px;
+    }
+    .footcolor{
+        margin-top: 5px;  
+        background-color: yellow;
+        
+        
+    }
+    .footdes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer-menu{
+        border: 2px solid red; 
+        border-radius: 3px; 
+        padding: 2px;
+    }
+        @media screen and (max-width:650px){
+            .top{
+                width: 100%; 
+            height: 20px; 
+            background-color: yellow;
+            }
+            .headerbutton{
+                display: grid;
+                grid-template-columns: 2fr 8fr 2fr; 
+                padding: 2px;
+            }
+            .flipcart{
+                font-size: 20px;
+            }
+            #searchvalue{
+                width: 100px;
+                border: 1px solid black;
+                height: 9px;
+                font-size: 5px;
+                margin-top: -2px;
+                box-shadow: -1px 0px black;
+            }
+            #searchbutton{
+                padding: 2px;
+                margin-top: -11px;
+            }
+            .flipcart{
+                font-size: 8px;
+            }
+            #search{
+                height: 9px;
+                width: 28px;
+                font-size: 5px;
+                border: 1px solid;
+                padding: 0px;
+                background-color: chocolate;
+                color: white;
+                box-shadow: 1px 0px 0px -2px white
+            }
+            .login-rs button{
+                height: auto;
+                width: auto;
+                font-size: 3px;
+                margin-top: 1px;
+                border-radius: 1px solid black;
+                box-shadow: -1px 1px black;
+                border: 0px solid black;
+               
+            }
+        #loginondiv{
+            margin: -13px 0 0 0;
+        }
+       
+        #all-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 85px;
+    background-color: rgb(233, 226, 226);
+        }
+        #firstrow{
+            margin-top: 2px;
+            height: 41px;
+        }
+        .itemname{
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+        
+        .paraitem{
+            background-color: black;
+            text-align: center;
+            height: 7px;
+            width: 32px;
+            font-size: 4px;
+        }
+        #imgresponsive{
+            height: 26px;
+            width: 32px;
+            margin-top: -32px;
+         }
+         .carousel-inner{
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            height: 86px;
+         }
+         #caitem{
+            border: 1px solid black;
+         }
+         #carouseheigthres{
+            margin-top: -8px;
+        }
+        .smallimg{
+            background-color: white;
+            height: 21px;
+            margin-top: -3px;
+        }
+        #smallres{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 5px;
+            background-color: white;
+        }
+        .smallimgcl{
+            height: 25px;
+    width: 26px;
+        }
+        .footcolor{
+            margin-top: 5px;
+            background-color: yellow;
+            height: 20px;
+            width: 100%;
+        }
+        .footdes{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .footer-menu{
+            border: 1px solid red;
+            border-radius: 3px;
+            padding: 2px;
+            height: 20px;
+            width: 58px;
+            font-size: 8px;
+        }
+        }
+        @media only screen and (min-width: 768px) and (max-width: 959px)  {
+        .top{
+            width: 100%;
+            height: 37px;
+            background-color: yellow;
+        }
+        .headerbutton{
+            display: grid;
+            grid-template-columns: 2fr 8fr 2fr; 
+            padding: 2px;
+        }
+        .flipcart{
+            font-size: 30px;
+            font-style: italic;
+            text-shadow: 2px 1px 1px rgb(128, 145, 221);
+        }
+       
+        #searchvalue{
+            width: 339px;
+    border: 2px solid black;
+    height: 26px;
+    font-size: 11px;
+    margin: 0px 0 0;
+    box-shadow: 2px 2px black;
+        }
+        #searchbutton{
+            margin-top: 4px;
+        }
+       
+        #search{
+            height: 28px;
+            width: 66px;
+            font-size: 13px;
+            border: 2px solid;
+            padding: 0px;
+            background-color: chocolate;
+            color: white;
+            box-shadow: 2px 2px white;
+        }
+        .login-rs{
+        margin-top: 3px;
+        }
+        .login-rs button{
+            width: auto;
+    font-size: 18px;
+    margin-top: 13px;
+    background: red;
+    box-shadow: 1px 1px 1px 1px black;
+           
+        }
+    #loginondiv{
+        margin: -13px 0 0 0;
+    }
+   
+    #all-item{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+height: 85px;
+background-color: rgb(233, 226, 226);
+    }
+    #firstrow{
+        margin-top: 2px;
+        height: 41px;
+    }
+    .itemname{
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
+    
+    .paraitem{
+        background-color: black;
+        text-align: center;
+        height: 7px;
+        width: 32px;
+        font-size: 4px;
+    }
+    #imgresponsive{
+        height: 26px;
+        width: 32px;
+        margin-top: -32px;
+     }
+     .carousel-inner{
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 86px;
+     }
+     #caitem{
+        border: 1px solid black;
+     }
+     #carouseheigthres{
+        margin-top: -8px;
+    }
+    .smallimg{
+        background-color: white;
+        height: 21px;
+        margin-top: -3px;
+    }
+    #smallres{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 5px;
+        background-color: white;
+    }
+    .smallimgcl{
+        height: 80px;
+        width: 74px
+    }
+    .footcolor{
+        margin-top: 5px;
+        background-color: yellow;
+        height: 20px;
+        width: 100%;
+    }
+    .footdes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer-menu{
+        border: 1px solid red;
+        border-radius: 3px;
+        padding: 2px;
+        height: 20px;
+        width: 58px;
+        font-size: 8px;
+    }
+    }
+     
+    @media only screen and (min-width: 414px)  {
+        #carouseheigthres{
+            margin-top: -12px;
+        }
+    }
+
+--------------------------
+<html>
+  <title>login</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"> 
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="../jquery-ui-1.13.2/jquery-ui-1.13.2/jquery-ui.js"></script>
+  <script src="../javascript_module/electronics.js"></script>
+  <head>
+  </head>
+  <body class="container-fluid">
+    <header class=" text-dark text-center p-2" style="background-color: yellow;">
+      <span class="bi bi-cart4"></span><h2>flipcart Shopping</h2>
+    </header>
+    <div class="row mt-3">
+      <div class="col-2">
+        <h4>Fashion</h4>
+      </div>
+      <div class="col-8">
+        <div id="homemenu" class="d-flex flex-wrap overflow-auto" style="height: 800px;">
+
+          </div>
+        </div>
+      
+      <div class="col-2">
+        <button class="btn btn-danger" onclick="fashionitems()" data-bs-target="#cart" data-bs-toggle="modal" id="datacancel">
+          [<span id="itemnumber"></span>]
+          <span class="bi bi-cart4"></span>your cart items
+        </button>
+      </div>
+    </div>
+    <div class="modal" id="cart">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class=" modal-header">
+            <h3>your items</h3>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>price</th>
+                        <th>preview</th>
+                    </tr>
+                </thead>
+                <tbody  id="delete">
+                    
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <th>Total amount</th>
+                    <th id="priceamount"></th>
+                  </tr>
+                </tfoot>
+              </table>
+          </div>
+          <div class="modal-footer">
+         <button data-bs-dismiss="modal" class="btn btn-primary w-25">
+           ok
+         </button>
+         <button class="btn btn-danger w-25" onclick="removeolddata()" data-bs-dismiss="modal">
+          Cancel
+         </button>
+          </div>
+        </div>
+    </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
+-------------------------------------------------------
+<html>
+  <title>login</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"> 
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="../jquery-ui-1.13.2/jquery-ui-1.13.2/jquery-ui.js"></script>
+  <script src="../javascript_module/fashion.js"></script>
+  <head>
+    <script>
+      
+    </script>
+
+  </head>
+  <body class="container-fluid">
+
+    
+
+    <header class=" text-dark text-center p-2" style="background-color: yellow;">
+      <span class="bi bi-cart4"></span><h2>Krishnna mart</h2>
+    </header>
+    <div class="row mt-3">
+      <div class="col-2">
+        <h4>Fashion</h4>
+      </div>
+      <div class="col-8">
+        <div id="homemenu" class="d-flex flex-wrap overflow-auto" style="height: 800px;">
+
+          </div>
+        </div>
+      
+      <div class="col-2">
+        <button class="btn btn-danger" onclick="fashionitems()" data-bs-target="#cart" data-bs-toggle="modal" id="datacancel">
+          [<span id="itemnumber"></span>]
+          <span class="bi bi-cart4"></span>your cart items
+        </button>
+      </div>
+    </div>
+    <div class="modal" id="cart">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class=" modal-header">
+            <h3>your items</h3>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>price</th>
+                        <th>preview</th>
+                    </tr>
+                </thead>
+                <tbody  id="delete">
+                    
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <th>Total amount</th>
+                    <th id="priceamount"></th>
+                  </tr>
+                </tfoot>
+              </table>
+          </div>
+          <div class="modal-footer">
+         <button data-bs-dismiss="modal" class="btn btn-primary w-25">
+           ok
+         </button>
+         <button class="btn btn-danger w-25" onclick="removeolddata()" data-bs-dismiss="modal">
+          Cancel
+         </button>
+          </div>
+        </div>
+    </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
+--------------------------------------------------------------------
+<html>
+  <title>login</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"> 
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="../jquery-ui-1.13.2/jquery-ui-1.13.2/jquery-ui.js"></script>
+  <script src="../javascript_module/jewellery.js"></script>
+  <head>
+  </head>
+  <body class="container-fluid">
+    <header class=" text-dark text-center p-2" style="background-color: yellow;">
+      <span class="bi bi-cart4"></span><h2>flipcart Shopping</h2>
+    </header>
+    <div class="row mt-3">
+      <div class="col-2">
+        <h4>Fashion</h4>
+      </div>
+      <div class="col-8">
+        <div id="homemenu" class="d-flex flex-wrap overflow-auto" style="height: 800px;">
+
+          </div>
+        </div>
+      
+      <div class="col-2">
+        <button class="btn btn-danger" onclick="fashionitems()" data-bs-target="#cart" data-bs-toggle="modal" id="datacancel">
+          [<span id="itemnumber"></span>]
+          <span class="bi bi-cart4"></span>your cart items
+        </button>
+      </div>
+    </div>
+    <div class="modal" id="cart">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class=" modal-header">
+            <h3>your items</h3>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>price</th>
+                        <th>preview</th>
+                    </tr>
+                </thead>
+                <tbody  id="delete">
+                    
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <th>Total amount</th>
+                    <th id="priceamount"></th>
+                  </tr>
+                </tfoot>
+              </table>
+          </div>
+          <div class="modal-footer">
+         <button data-bs-dismiss="modal" class="btn btn-primary w-25">
+           ok
+         </button>
+         <button class="btn btn-danger w-25" onclick="removeolddata()" data-bs-dismiss="modal">
+          Cancel
+         </button>
+          </div>
+        </div>
+    </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
+----------------------------------
+$(function () {
+  $.ajax({
+    method: 'GET',
+    url: "https://fakestoreapi.com/products/category/jewelery"
+  })
+    .then(function (data) {
+      $.each(data, function (key, value) {
+        $(`
+          <div class="card m-3 w-25">
+            <img src=${value.image} class="card-img-top" height="130">
+            <div class="card-header">
+              <p>${value.title}</p>
+            </div>
+            <div class="card-body" height="120">
+              <p>${value.price}</p>
+              <p>${value.rating.rate}</p>
+              <p>${value.rating.count}</p>
+            </div>
+            <div class="card-footer text-center" height="120">
+              <button class="btn btn-danger" w-"100" onclick="addcartclick(${value.id})" id="cancel">
+                <span class="bi bi-cart4"></span>add to cart
+              </button>
+            </div>
+          </div>
+        `).appendTo("#homemenu");
+      })
+    });
+
+});
+var cartitemnumber = [];
+  count = 0;
+ 
+  function addnumber() {
+    count = cartitemnumber.length;
+    document.getElementById("itemnumber").innerHTML = count;
+    
+  }
+
+  function addcartclick(id) {
+    fetch(`https://fakestoreapi.com/products/${id}`)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        cartitemnumber.push(data);
+        alert("item successfully added");
+        addnumber();
+      })
+  };
+
+  
+
+//new function
+      function remove(){
+        $("tbody").empty();
+      }
+       
+     function fashionitems(){
+      remove();
+     count=0;
+    for(var item of cartitemnumber){
+      var tr=document.createElement("tr");
+      
+      var tdtitle=document.createElement("td");
+      var tdprice=document.createElement("td");
+      var tdphoto=document.createElement("td");
+
+      tdtitle.innerHTML=item.title;
+      tdprice.innerHTML=item.price;
+
+      var img=document.createElement("img");
+      img.src=item.image;
+      img.height="100"
+      img.width="100"
+
+      tdphoto.appendChild(img);
+
+      tr.appendChild(tdtitle);
+      tr.appendChild(tdprice);
+      tr.appendChild(tdphoto);
+
+      document.querySelector("tbody").appendChild(tr);
+     var prices=document.getElementById("priceamount");
+     count+=item.price
+     prices.innerHTML=count;
+          
+    };
+   
+   };
+  
+   function removeolddata() {
+    cartitemnumber = [];
+    count = 0;
+    addnumber();
+    $("tbody").empty();
+    $("#priceamount").html(count);
+  }
+-----------------------------------
+<!DOCTYPE html>
+<html>
+<title>flipkart</title>
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="../jquery-ui-1.13.2/jquery-ui-1.13.2/jquery-ui.js"></script>
+<script src="../jquery-ui-1.13.2/jquery-ui-1.13.2/jquery-ui.css"></script>
+<link rel="stylesheet" href="../Javascript_Final_Project/fullproject.css">
+
+<head>
+   <script>
+  
+    function search() {
+    var searchValue = document.getElementById("searchvalue").value;
+    // Check if the search value is related to fashion.html
+    var search=document.getElementById("")
+    if (searchValue == "fashion" ) {
+        window.location.href = 'fashion.html';
+}else if(searchValue == "electronics" ){
+    window.location.href = 'electronics.html';
+}else if(searchValue == "jewellery"){
+  window.location.href='jewellery.html';
+}else if(searchValue == "mansclothing"){
+    window.location.href='mansclothing.html';
+}
+
+}  
+
+function username(){
+    var pas=document.getElementById("user").value;
+    var us=document.getElementById("use");
+    var reg=/^[A-Z]{1}[a-z]{1,30}$/
+    if(pas.match(reg)){
+        us.innerHTML="validate password";
+        us.className = "text-success";
+    }else{
+        us.innerHTML="invalid password";
+        us.className="text-danger";
+}
+}
+function password(){
+    var pw=document.getElementById("pass").value;
+    var pww=document.getElementById("pw");
+    var exp=/^(?=.*[A-Za-z0-9])[A-Z]{1}[a-z]{1,16}[@]{1}[0-9]{1,4}$/;
+    if(pw.match(exp)){
+        pww.innerHTML="validate password";
+        pww.className="text-success";
+      }else{
+        pww.innerHTML="invalid password";
+        pww.className="text-danger";
+      }
+}
+function conpassword(){
+    var pw=document.getElementById("pass").value;
+    var cpass=document.getElementById("cupassword").value;
+    var cpww=document.getElementById("cpw");
+    var regexp=/^(?=.*[A-Za-z0-9])[A-Z]{1}[a-z]{1,16}[@]{1}[@]{1}[0-9]{1,4}$/;
+    if(pw.match(regexp) == cpass.match(regexp)){
+        cpww.innerHTML="validate password";
+        cpww.className="text-success";
+      }else{
+        cpww.innerHTML="current password and confirm password didn't match";
+        cpww.className="text-danger";
+      } 
+    }
+   </script> 
+</head>
+
+<body class="container-fluid	" onload="bodyload()">
+    <div class="fullbody">
+        <header  id="headerresponsive" class="top" >
+           <div  class="headerbutton">
+                <div style="padding: 2px;">
+                    <h3 class="text-primary flipcart">Krishnna mart</h3>
+                </div>
+                
+               
+                <div  id="searchbutton"  >
+                    <input type="text" placeholder="Search product name" name="searchbox"
+                         id="searchvalue" >
+                        <span>
+                            <button onclick="search()" id="search">search</button>
+                        </span>
+                </div>
+                <!-- <button class="bt btn-primary dropdown-toggle menu"  onclick="menu()">menu</button> -->
+                <div style="padding: 2px;" id="loginondiv">
+                    <div class="login-rs">
+                    
+                        <button class="" id="login" data-bs-toggle="modal" data-bs-target="#loginmodal">Login</button> 
+                        <span><button class="" data-bs-toggle="modal" data-bs-target="#registermodal" > register</button></span>
+                    </div>
+                    <form>
+                        <div class="modal fade" id="registermodal">
+                            <div class="modal-dialog">
+                             <div class="modal-content">
+                                  <div class="modal-header">
+                                           <h2>User Registration form</h2>
+                                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                                  </div> 
+                                  <div class="modal-body">
+                                        <dl>
+                                           <dt>Username</dt>
+                                           <dd>
+                                               <input type="text" onkeyup="username()" id="user">
+                                               <p id="use"></p>
+                                           </dd>
+                                           <dt> current password</dt>
+                                           <dd>
+                                               <input type="password" onkeyup="password()" id="pass">
+                                               <p id="pw"></p>
+                                           </dd>
+                                           <dt> confirm password</dt>
+                                           <dd>
+                                               <input type="email" onkeyup="conpassword()" id="cupassword">
+                                               <p id="cpw"></p>
+                                           </dd>
+                                        </dl>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button class="btn btn-primary">Register</button>
+                                    <button class="btn btn-danger" data-bs-dismiss="modal">cancel</button>
+                                  </div>
+                             </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="modal fade" id="loginmodal">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                         <div class="modal-header">
+                            <h2 class="modal-title">login form</h2>
+                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                         </div>
+                         <div class="modal-body">
+                            <dl>
+                                <dt>username</dt>
+                                <dd><input type="text"></dd>
+                            <dt>password</dt>
+                            <dd><input type="password"></dd>
+                          </dl>
+                         </div>
+                         <div class="modal-footer">
+                            <button>login</button>
+                            <button class="btn btn-danger" data-bs-dismiss="modal">cancel</button>
+                         </div>
+                         <div></div>
+                          </div>
+                        </div>
+            
+                     </div>
+                </div>
+            </div>
+          
+        </header>
+        <div id="bodyresponsive">
+            <div id="bodya">
+                <div   id="firstrow">
+                    <div   id="all-item">
+                        <div class=" item">
+                            <p  class="paraitem"><a  id="fashion" class="itemname"
+                              onclick="fashion()" href="fashion.html">Womens Clothing</a></p>
+                            <img src="../Javascript_Final_Project/assets/fashion.PNG" width: 122px; id="imgresponsive">
+                        </div>
+
+                        <div class=" item">
+                            <p  class="paraitem"><a  id="electronics" class="itemname"
+                               onclick="ele()"  href="electronics.html"   >Electronics</a></p>
+                            <img src="../Javascript_Final_Project/assets/Electronics.PNG"  id="imgresponsive">
+                        </div>
+                        <div class=" item">
+                            <p  class="paraitem"><a  id="jewellery" class="itemname"
+                                    onclick="jewelle()" href="jewellery.html" >jewellery</a></p>
+                            <img src="../Javascript_Final_Project/assets/beauty.PNG" id="imgresponsive">
+                        </div>
+                        <div class=" item">
+                            <p  class="paraitem"><a  id="mans" class="itemname"
+                                    onclick="furniture()" href="mens_clothing.html">mainsclothing</a></p>
+                            <img src="../Javascript_Final_Project/assets/furniture.PNG"  id="imgresponsive">
+                        </div>
+                        <div class=" item">
+                            <p  class="paraitem"><a  id="gift" class="itemname"
+                                    onclick="gift()" href="jewellery.html"  >gift</a></p>
+                            <img src="../Javascript_Final_Project/assets/giftitem.PNG"  id="imgresponsive">
+                        </div>
+                        <div class= "item">
+                            <p  class="paraitem"><a  id="grocery" class="itemname"
+                                    onclick="grocery()" href="mens_clothing.html" >grocery</a></p>
+                            <img src="../Javascript_Final_Project/assets/grocery.PNG"  id="imgresponsive">
+                        </div>
+                        <div class=" item">
+                            <p  class="paraitem"><a  id="hairitems" class="itemname"
+                                    onclick="hair-1()" href="fashion.html" >hairitems</a></p>
+                            <img src="../Javascript_Final_Project/assets/hariitems.PNG"  id="imgresponsive">
+                        </div>
+                        <div class=" item">
+                            <p  class="paraitem"><a  id="hair-2" class="itemname"
+                             onclick="hair-2()" href="electronics.html" >hairitems</a></p>
+                            <img src="../Javascript_Final_Project/assets/hariitems.PNG"  id="imgresponsive">
+                        </div>
+                        <div class=" item">
+                            <p  class="paraitem"><a  id="hair-3" class="itemname"
+                                    onclick="hair-3()" href="fashion.html" style="text-decoration: none;">haireitems</a></p>
+                            <img src="../Javascript_Final_Project/assets/hariitems.PNG"  id="imgresponsive">
+                        </div>
+                        <div class=" item">
+                            <p  class="paraitem"><a  id="giftitems" class="itemname"
+                                    onclick="gift-1()" href="jewellery.html" >giftitem</a></p>
+                            <img src="../Javascript_Final_Project/assets/giftitem.PNG"  id="imgresponsive">
+                        </div>
+                        <div class=" item">
+                            <p  class="paraitem"><a  id="furniture" class="itemname"
+                                    onclick="furn-1()" href="fashion.html" >furniture</a></p>
+                            <img src="../Javascript_Final_Project/assets/furniture.PNG"  id="imgresponsive">
+                        </div>
+                        <div class=" item">
+                            <p  class="paraitem"><a  id="gift-2" class="itemname"
+                                    onclick="gift-2()" href="jewellery.html" >giftitem</a></p>
+                            <img src="../Javascript_Final_Project/assets/giftitem.PNG"  id="imgresponsive">
+                        </div>
+                        <!-- <div class="m-2">
+                            <p class="text-bg-dark text-center"><a class="text-white bg-dark" id="fashion-2"
+                                    onclick="fash-2()" href="fashion.html" style="text-decoration: none;">fashion</a></p>
+                            <img src="../Javascript_Final_Project/assets/fashion.PNG" height="100px" width="100px" id="imgresponsive">
+                        </div> -->
+                        
+                    </div>
+                </div>
+                <div  id="carouseheigthres">
+
+                    <div class="carousel slide carousel-dark mt-1" data-bs-ride="carousel"
+                        id="banner" class="caroubanner">
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active"  id="caitem">
+                                <img src="../Javascript_Final_Project/assets/phone.PNG"  id="sarouselimgres">
+                            </div>
+                            <div class="carousel-item"  id="caitem">
+                                <img src="../Javascript_Final_Project/assets/giftitem.PNG"  id="sarouselimgres">
+                            </div>
+                            <div class="carousel-item"  id="caitem">
+                                <img src="../Javascript_Final_Project/assets/fashion.PNG" id="sarouselimgres">
+                            </div>
+                            <div class="carousel-item" id="caitem">
+                                <img src="../Javascript_Final_Project/assets/hariitems.PNG" id="sarouselimgres">
+                            </div>
+                            <div class="carousel-item" id="caitem">
+                                <img src="../Javascript_Final_Project/assets/kitchen.PNG"  id="sarouselimgres">
+                            </div>
+                            <div class="carousel-item" id="caitem">
+                                <img src="../Javascript_Final_Project/assets/grocery.PNG"  id="sarouselimgres">
+                            </div>
+                            <div class="carousel-item" id="caitem">
+                                <img src="../Javascript_Final_Project/assets/furniture.PNG"  id="sarouselimgres">
+                            </div>
+                            <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#banner" id="sarouselimgres">
+                                <span class="carousel-control-prev-icon"> </span>
+                            </button>
+                            <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#banner" id="sarouselimgres">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div  class="smallimg">
+               <div  id="smallres">
+                <img src="../bootstrapicon/assets/Boxmeal - Copy.PNG"  class="smallimgcl" >
+                <img src="../bootstrapicon/assets/chickenrole.PNG" class="smallimgcl"  >
+                <img src="../bootstrapicon/assets/snacks.PNG"  class="smallimgcl"  >
+                <img src="../bootstrapicon/assets/snacks.PNG"  class="smallimgcl" >
+                <img src="../bootstrapicon/assets/snacks.PNG"  class="smallimgcl" >
+                <img src="../bootstrapicon/assets/chickenrole.PNG"  class="smallimgcl"  >
+                <img src="../bootstrapicon/assets/snacks.PNG"  class="smallimgcl"  >
+                <img src="../bootstrapicon/assets/Boxmeal.PNG"   class="smallimgcl" >
+                <img src="../bootstrapicon/assets/chickenrole.PNG"  class="smallimgcl"  >
+                <img src="../bootstrapicon/assets/snacks.PNG"  class="smallimgcl" >
+                <img src="../bootstrapicon/assets/snacks.PNG"  class="smallimgcl"  >
+                <img src="../bootstrapicon/assets/snacks.PNG"  class="smallimgcl" >
+                <img src="../bootstrapicon/assets/Boxmeal.PNG" class="smallimgcl" >
+               </div>
+            </div>
+        </div>
+        <footer class="footcolor">
+
+            <div  class="footdes" >
+                <div   class="footer-menu"><span class="bi bi-house  " ></span>Home</div>
+                <div  class="footer-menu"><span class="bi bi-android "></span>menu</div>
+                <div  class="footer-menu"><span class="bi bi-phone-fill"></span>contactus</div>
+                <div  class="footer-menu"><span class="bi bi-share"></span>share</div>
+                <div  class="footer-menu"><span class="bi bi-messenger"></span>feedback</div>
+                <div  class="footer-menu"><span class="bi bi-people-fill"></span>profile</div>
+            </div>
+        </footer>
+      </div>
+    
+  
+   <script>
+   
+
+   </script>
+   
+</body>
+
+</html>
+-------------------------------------------------------
+$(function () {
+  $.ajax({
+    method: 'GET',
+    url: "https://fakestoreapi.com/products/category/men's%20clothing"
+  })
+    .then(function (data) {
+      $.each(data, function (key, value) {
+        $(`
+          <div class="card m-3 w-25">
+            <img src=${value.image} class="card-img-top" height="130">
+            <div class="card-header">
+              <p>${value.title}</p>
+            </div>
+            <div class="card-body" height="120">
+              <p>${value.price}</p>
+              <p>${value.rating.rate}</p>
+              <p>${value.rating.count}</p>
+            </div>
+            <div class="card-footer text-center" height="120">
+              <button class="btn btn-danger" w-"100" onclick="addcartclick(${value.id})" id="cancel">
+                <span class="bi bi-cart4"></span>add to cart
+              </button>
+            </div>
+          </div>
+        `).appendTo("#homemenu");
+      })
+    });
+
+});
+var cartitemnumber = [];
+  count = 0;
+ 
+  function addnumber() {
+    count = cartitemnumber.length;
+    document.getElementById("itemnumber").innerHTML = count;
+    
+  }
+
+  function addcartclick(id) {
+    fetch(`https://fakestoreapi.com/products/${id}`)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        cartitemnumber.push(data);
+        alert("item successfully added");
+        addnumber();
+      })
+  };
+
+  
+
+//new function
+      function remove(){
+        $("tbody").empty();
+      }
+       
+     function fashionitems(){
+      remove();
+     count=0;
+    for(var item of cartitemnumber){
+      var tr=document.createElement("tr");
+      
+      var tdtitle=document.createElement("td");
+      var tdprice=document.createElement("td");
+      var tdphoto=document.createElement("td");
+
+      tdtitle.innerHTML=item.title;
+      tdprice.innerHTML=item.price;
+
+      var img=document.createElement("img");
+      img.src=item.image;
+      img.height="100"
+      img.width="100"
+
+      tdphoto.appendChild(img);
+
+      tr.appendChild(tdtitle);
+      tr.appendChild(tdprice);
+      tr.appendChild(tdphoto);
+
+      document.querySelector("tbody").appendChild(tr);
+     var prices=document.getElementById("priceamount");
+     count+=item.price
+     prices.innerHTML=count;
+          
+    };
+   
+   };
+  
+   function removeolddata() {
+    cartitemnumber = [];
+    count = 0;
+    addnumber();
+    $("tbody").empty();
+    $("#priceamount").html(count);
+  }
+------------------------------------------
+<html>
+  <title>login</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"> 
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="../jquery-ui-1.13.2/jquery-ui-1.13.2/jquery-ui.js"></script>
+  <script src="../javascript_module/mansclothing.js"></script>
+  <head>
+  </head>
+  <body class="container-fluid">
+    <header class=" text-dark text-center p-2" style="background-color: yellow;">
+      <span class="bi bi-cart4"></span><h2>flipcart Shopping</h2>
+    </header>
+    <div class="row mt-3">
+      <div class="col-2">
+        <h4>Fashion</h4>
+      </div>
+      <div class="col-8">
+        <div id="homemenu" class="d-flex flex-wrap overflow-auto" style="height: 800px;">
+
+          </div>
+        </div>
+      
+      <div class="col-2">
+        <button class="btn btn-danger" onclick="fashionitems()" data-bs-target="#cart" data-bs-toggle="modal" id="datacancel">
+          [<span id="itemnumber"></span>]
+          <span class="bi bi-cart4"></span>your cart items
+        </button>
+      </div>
+    </div>
+    <div class="modal" id="cart">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class=" modal-header">
+            <h3>your items</h3>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>price</th>
+                        <th>preview</th>
+                    </tr>
+                </thead>
+                <tbody  id="delete">
+                    
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <th>Total amount</th>
+                    <th id="priceamount"></th>
+                  </tr>
+                </tfoot>
+              </table>
+          </div>
+          <div class="modal-footer">
+         <button data-bs-dismiss="modal" class="btn btn-primary w-25">
+           ok
+         </button>
+         <button class="btn btn-danger w-25" onclick="removeolddata()" data-bs-dismiss="modal">
+          Cancel
+         </button>
+          </div>
+        </div>
+    </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
+--------------------------------------------
+<!DOCTYPE html>
+<html>
+    <title>registration form</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  
+    <head>
+    <script>
+        function userkey(){
+          
+         var Username=document.getElementById("username").value;
+          var useridentify=document.getElementById("useridentify"); 
+          var usernameregex = /^[a-z]{3,10}$/;
+
+if (Username.match(usernameregex)) {
+    useridentify.innerHTML = "username correct";
+    useridentify.className = "text-success";
+} else {
+    useridentify.innerHTML = "username wrong";                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    useridentify.className = "text-danger";
+}
+};
+      function passwordkey(){
+        var password=document.getElementById("password").value;
+        var passwordidentify=document.getElementById("passwordidentify");
+        var passwordregexp=/^(?=.*[A-Za-z0-9])[A-Z]{1}[a-z]{1,16}[0-9]{1,4}[@]{1}$/;
+        if(password.match(passwordregexp)){
+          passwordidentify.innerHTML="validate password";
+          passwordidentify.className="text-success";
+        }else{
+          passwordidentify.innerHTML="invalid password";
+          passwordidentify.className="text-danger";
+        }
+      };
+  
+      function phonenumber(){
+        var PhoneNumber=document.getElementById("PhoneNumber").value;
+        var phonenumberidentify=document.getElementById("phonenumberidentify");
+
+        var regexp=/^[+91]{3}[0-9]{6,10}$/;
+        if(PhoneNumber.match(regexp)){
+          phonenumberidentify.innerHTML="valid number";
+          phonenumberidentify.className="text-success";
+
+        }else{
+          phonenumberidentify.innerHTML="invalid number";
+          phonenumberidentify.className="text-danger";
+        }
+      }
+        function emails(){
+          var emails=document.getElementById("emailtextbox").value;
+          var emailidentify=document.getElementById("emailidenetify");
+          
+          var regexp=/^(?=.*[a-z0-9])[a-z]{1,16}[0-9]{1,4}[@]{1}[gmail]{1,5}\.[com]{1,3}$/;
+
+          if(emails.match(regexp)){
+            emailidentify.innerHTML="valid mail";
+            emailidentify.className="text-success";
+          }else{
+            emailidentify.innerHTML="Invalid mail";
+            emailidentify.className="text-danger";
+          }
+        }
+    </script>
+    </head>
+  <body class="container-fluid">
+    <div class="d-flex flex-wrap">
+    <form>
+        <div>
+          <h2>Login Form</h2>
+        </div>
+        <div>
+            <dl>
+              <div>
+                <dt>UserName</dt>
+              <div>
+                <dd class="input-group">
+                  <span class="bi bi-person text-white bg-black input-group-text"></span>
+                  <input type="text" name="username" id="username" class="form-control" onkeyup="userkey()">
+                  <span class="bi bi-check-circle text-white bg-black input-group-text"></span>
+                </dd>
+              </div>
+               <p id="useridentify"></p>
+              </div>
+              <div>
+                <dt>Password</dt>
+              <div>
+                <dd class="input-group">
+                  <span class="bi bi-key-fill text-white bg-black input-group-text"></span>
+                  <input type="password" name="password" id="password" class="form-control" onkeyup="passwordkey()">
+                  <span class="bi bi-check-circle text-white bg-black input-group-text"></span>
+                </dd>
+              </div>
+              <p id="passwordidentify"></p>
+              </div>
+             <div>
+              <dt>PhoneNumber</dt>
+              <div>
+                <dd class="input-group">
+                  <span class="bi bi-telephone text-white bg-black input-group-text"></span>
+                  <input type="text" name="PhoneNumber" id="PhoneNumber"  class="form-control" onkeyup="phonenumber()">
+                  <span class="bi bi-check-circle text-white bg-black input-group-text"></span>
+                </dd>
+              </div>
+              <p id="phonenumberidentify"></p>
+             </div>
+              <div>
+                <dt>email</dt>
+              <div>
+                <dd class="input-group">
+                  <span class="bi bi-envelope text-white bg-black input-group-text"></span>
+                  <input type="email" name="email" id="emailtextbox" class="form-control" onkeyup="emails()">
+                  <span class="bi bi-check-circle text-white bg-black input-group-text"></span>
+                </dd>
+              </div>
+              <p id="emailidenetify"></p>
+              </div>
+              <div>
+                <dt>Date-Of-Barth</dt>
+               <div>
+                <dd class="input-group">
+                  <span class="bi bi-calendar-day text-white bg-black input-group-text"></span>
+                  <input type="datetime-local" name=" dateofbairth" id="dateofbairth" class="form-control">
+                  <span class="bi bi-check-circle text-white bg-black input-group-text"></span>
+                </dd>
+               </div>
+                <p id="date-of-bairth"></p>
+              </div>
+            </dl>
+        </div>
+        <div class="footer"> 
+           <span>
+            <button class="btn btn-primery">Login</button>
+            <button class="btn btn-danger">Cancel</button>
+           </span>
+           </div>
+          </form>
+        </div>
+  </body>
+</html>
+----------------------------------
+<!DOCTYPE html>
+<html>
+    <title>registration form</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  
+    <head>
+    <script>
+        function userkey(){
+          
+         var Username=document.getElementById("username").value;
+          var useridentify=document.getElementById("useridentify"); 
+          var usernameregex = /^[a-z]{3,10}$/;
+
+if (Username.match(usernameregex)) {
+    useridentify.innerHTML = "username correct";
+    useridentify.className = "text-success";
+} else {
+    useridentify.innerHTML = "username wrong";                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    useridentify.className = "text-danger";
+}
+};
+      function passwordkey(){
+        var password=document.getElementById("password").value;
+        var passwordidentify=document.getElementById("passwordidentify");
+        var passwordregexp=/^(?=.*[A-Za-z0-9])[A-Z]{1}[a-z]{1,16}[0-9]{1,4}[@]{1}$/;
+        if(password.match(passwordregexp)){
+          passwordidentify.innerHTML="validate password";
+          passwordidentify.className="text-success";
+        }else{
+          passwordidentify.innerHTML="invalid password";
+          passwordidentify.className="text-danger";
+        }
+      };
+  
+      function phonenumber(){
+        var PhoneNumber=document.getElementById("PhoneNumber").value;
+        var phonenumberidentify=document.getElementById("phonenumberidentify");
+
+        var regexp=/^[+91]{3}[0-9]{6,10}$/;
+        if(PhoneNumber.match(regexp)){
+          phonenumberidentify.innerHTML="valid number";
+          phonenumberidentify.className="text-success";
+
+        }else{
+          phonenumberidentify.innerHTML="invalid number";
+          phonenumberidentify.className="text-danger";
+        }
+      }
+        function emails(){
+          var emails=document.getElementById("emailtextbox").value;
+          var emailidentify=document.getElementById("emailidenetify");
+          
+          var regexp=/^(?=.*[a-z0-9])[a-z]{1,16}[0-9]{1,4}[@]{1}[gmail]{1,5}\.[com]{1,3}$/;
+
+          if(emails.match(regexp)){
+            emailidentify.innerHTML="valid mail";
+            emailidentify.className="text-success";
+          }else{
+            emailidentify.innerHTML="Invalid mail";
+            emailidentify.className="text-danger";
+          }
+        }
+    </script>
+    </head>
+  <body class="container-fluid">
+    <div class="d-flex flex-wrap">
+    <form>
+        <div class="modal fade" id="registermodal">
+            <div class="modal-dialog">
+             <div class="modal-content">
+                  <div class="modal-header">
+                           <h2>User Registration form</h2>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                  </div> 
+                  <div class="modal-body">
+                        <dl>
+                           <dt>Username</dt>
+                           <dd>
+                               <input type="text">
+                           </dd>
+                           <dt>password</dt>
+                           <dd>
+                               <input type="password">
+                           </dd>
+                           <dt>password</dt>
+                           <dd>
+                               <input type="email">
+                           </dd>
+                        </dl>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary">Register</button>
+                    <button class="btn btn-danger" data-bs-dismiss="modal">cancel</button>
+                  </div>
+             </div>
+            </div>
+        </div>
+          </form>
+        </div>
+  </body>
+</html>
